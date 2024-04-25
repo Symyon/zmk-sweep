@@ -91,17 +91,17 @@
 
         symbols {
             bindings = <
-&kp LS(Q)         &kp LS(W)              &kp LS(E)   &kp LS(N5)         &kp GRAVE       &kp TILDE         &kp LS(NUMBER_3)  &kp LS(BACKSLASH)  &kp MINUS      &kp EQUAL
-&kp LS(NUMBER_1)  &kp LS(N7)             &kp SQT     &kp LS(SQT)        &kp NUMBER_4    &kp LS(NUMBER_6)  &kp LS(N9)        &kp LS(N0)         &kp LS(MINUS)  &kp LS(EQUAL)
-&kp LS(Z)         &kp LS(RIGHT_BRACKET)  &kp LS(N8)  &kp RIGHT_BRACKET  &trans          &trans            &kp LS(NUMBER_2)  &kp LS(SLASH)      &kp BACKSLASH  &kp SLASH
-                                                     &trans             &trans          &trans            &trans
+&kp LS(Q)         &kp LS(W)              &kp LS(E)   &kp LS(N5)         &kp GRAVE           &kp TILDE         &kp LS(NUMBER_3)  &kp LS(BACKSLASH)  &kp MINUS      &kp EQUAL
+&kp LS(NUMBER_1)  &kp LS(N7)             &kp SQT     &kp LS(SQT)        &kp LS(NUMBER_4)    &kp LS(NUMBER_6)  &kp LS(N9)        &kp LS(N0)         &kp LS(MINUS)  &kp LS(EQUAL)
+&kp LS(Z)         &kp LS(RIGHT_BRACKET)  &kp LS(N8)  &kp RIGHT_BRACKET  &trans              &trans            &kp LS(NUMBER_2)  &kp LS(LBKT)       &kp BACKSLASH  &kp LBKT
+                                                     &trans             &trans              &trans            &trans
             >;
         };
 
         nav {
             bindings = <
 &trans        &kp HOME   &kp END       &kp LC(PERIOD)  &kp LC(I)    &trans              &trans    &trans         &trans  &kp RIGHT
-&kp LEFT_GUI  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans       &trans              &kp LEFT  &trans         &trans  &trans
+&kp LEFT_GUI  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans       &kp LC(B)           &kp LEFT  &trans         &trans  &trans
 &trans        &trans     &kp DOWN      &kp UP_ARROW    &trans       &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT)  &trans  &trans
                                        &trans          &trans       &trans              &trans
             >;
