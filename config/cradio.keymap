@@ -100,9 +100,9 @@
 
         nav {
             bindings = <
-&trans        &kp HOME   &kp END       &kp LC(PERIOD)  &kp LC(I)    &trans              &trans    &trans         &trans  &kp RIGHT
-&kp LEFT_GUI  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans       &kp LC(B)           &kp LEFT  &trans         &trans  &trans
-&trans        &trans     &kp DOWN      &kp UP_ARROW    &trans       &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT)  &trans  &trans
+&trans        &kp HOME   &kp END       &kp LC(PERIOD)  &kp LC(I)    &trans              &trans    &trans         &trans     &kp RIGHT
+&kp LEFT_GUI  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans       &kp LC(B)           &kp LEFT  &trans         &kp PG_UP  &kp PG_DN
+&trans        &trans     &kp DOWN      &kp UP_ARROW    &trans       &kp LC(LEFT_ARROW)  &trans    &kp LC(RIGHT)  &trans     &trans
                                        &trans          &trans       &trans              &trans
             >;
         };
