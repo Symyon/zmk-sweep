@@ -49,7 +49,7 @@
         combo_settings {
             timeout-ms = <300>;
             key-positions = <30 31>;
-            bindings = <&lt 5 TAB>;
+            bindings = <&lt 4 TAB>;
         };
 
         escape {
