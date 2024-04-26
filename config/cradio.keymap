@@ -49,7 +49,7 @@
         combo_settings {
             timeout-ms = <300>;
             key-positions = <30 31>;
-            bindings = <&lt 4 TAB>;
+            bindings = <&lt 5 TAB>;
         };
 
         escape {
@@ -81,16 +81,7 @@
 &kp Q           &kp W        &kp E             &kp R                 &kp T    &kp Y            &kp U             &kp I           &kp O        &kp P
 &mt LEFT_GUI A  &mt LCTRL S  &mt LEFT_SHIFT D  &mt LEFT_SHIFT F      &kp G    &kp H            &mt LEFT_SHIFT J  &mt LEFT_ALT K  &mt LCTRL L  &mt LEFT_GUI SEMICOLON
 &kp Z           &kp X        &kp C             &kp V                 &kp B    &kp N            &kp M             &kp COMMA       &kp DOT      &kp SLASH
-                                               &mt LEFT_SHIFT SPACE  &mo 2    &lt 1 BACKSPACE  &lt 3 ENTER
-            >;
-        };
-
-        Numbers {
-            bindings = <
-&trans        &trans      &trans        &trans        &trans        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(RIGHT_BRACKET)
-&kp LEFT_GUI  &kp LCTRL   &kp LEFT_ALT  &kp LSHFT     &trans        &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
-&kp C_PLAY    &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &trans  &kp N7        &kp N8        &kp N9        &kp SQT
-                                        &trans        &trans        &trans  &trans
+                                               &mt LEFT_SHIFT SPACE  &mo 1    &lt 2 BACKSPACE  &lt 3 ENTER
             >;
         };
 
@@ -100,6 +91,15 @@
 &kp LS(NUMBER_1)  &kp LS(N7)  &kp SQT                &kp LS(SQT)        &kp LS(NUMBER_4)    &kp LS(NUMBER_6)  &kp LS(N9)         &kp LS(N0)        &kp LS(MINUS)         &kp LS(EQUAL)
 &kp LS(Z)         &kp LS(N8)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &trans              &trans            &kp LS(BACKSLASH)  &kp BACKSLASH     &kp LS(LEFT_BRACKET)  &kp LBKT
                                                      &trans             &trans              &trans            &trans
+            >;
+        };
+
+        Numbers {
+            bindings = <
+&trans        &trans      &trans        &trans        &trans        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(RIGHT_BRACKET)
+&kp LEFT_GUI  &kp LCTRL   &kp LEFT_ALT  &kp LSHFT     &trans        &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
+&kp C_PLAY    &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &trans  &kp N7        &kp N8        &kp N9        &kp SQT
+                                        &trans        &trans        &trans  &trans
             >;
         };
 
