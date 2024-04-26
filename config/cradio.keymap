@@ -91,7 +91,7 @@
 
         symbols {
             bindings = <
-&kp LS(Q)         &kp LS(W)   &kp LS(E)              &kp LS(N5)         &kp TILDE           &kp GRAVE         &kp LS(NUMBER_3)   &kp LS(NUMBER_2)  &kp MINUS             &kp EQUAL
+&kp LS(Q)         &kp LS(W)   &kp LS(E)              &kp LS(N5)         &kp TILDE           &kp GRAVE         &kp LS(NUMBER_2)   &kp LS(NUMBER_3)  &kp MINUS             &kp EQUAL
 &kp LS(NUMBER_1)  &kp LS(N7)  &kp SQT                &kp LS(SQT)        &kp LS(NUMBER_4)    &kp LS(NUMBER_6)  &kp LS(N9)         &kp LS(N0)        &kp LS(MINUS)         &kp LS(EQUAL)
 &kp LS(Z)         &kp LS(N8)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &trans              &trans            &kp LS(BACKSLASH)  &kp BACKSLASH     &kp LS(LEFT_BRACKET)  &kp LBKT
                                                      &trans             &trans              &trans            &trans
