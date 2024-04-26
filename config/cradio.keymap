@@ -61,6 +61,11 @@
             bindings = <&kp DELETE>;
             key-positions = <32 33>;
         };
+
+        Shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <31 32>;
+        };
     };
 
     behaviors {
