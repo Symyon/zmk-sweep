@@ -198,7 +198,7 @@
 
         i3 {
             bindings = <
-&kp LG(NUMBER_2)  &kp LG(NUMBER_4)  &kp LG(NUMBER_6)  &kp LC(PAGE_UP)  &trans    &trans     &trans     &kp LG(I)  &trans          &kp LG(P)
+&kp LG(NUMBER_2)  &kp LG(NUMBER_4)  &kp LG(NUMBER_6)  &kp LC(PAGE_UP)  &trans    &kp LG(Y)  &trans     &kp LG(I)  &trans          &kp LG(P)
 &kp LG(NUMBER_1)  &kp LG(NUMBER_3)  &kp LG(N5)        &trans           &trans    &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LC(PG_DN)   &kp LG(SEMICOLON)
 &trans            &trans            &kp LG(C)         &kp LG(V)        &trans    &trans     &trans     &trans     &kp LG(PERIOD)  &trans
                                                       &trans           &trans    &trans     &trans
