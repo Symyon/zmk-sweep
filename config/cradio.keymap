@@ -37,6 +37,90 @@
     macros {
         // sometimes my device thinks a modifier is being held down
         // pressing all modifiers fixes it.
+
+        tmux_l: tmux_l {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp L>;
+            label = "TMUX_L";
+        };
+
+        tmux_h: tmux_h {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp H>;
+            label = "TMUX_H";
+        };
+
+        tmux_j: tmux_j {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp C>;
+            label = "TMUX_J";
+        };
+
+        tmux_k: tmux_k {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp V>;
+            label = "TMUX_K";
+        };
+
+        tmux_cmd: tmux_cmd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp LS(Z)>;
+            label = "TMUX_CMD";
+        };
+
+        tmux_s: tmux_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp SEMICOLON>;
+            label = "TMUX_S";
+        };
+
+        tmux_new_win: tmux_new_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp I>;
+            label = "TMUX_NEW_WIN";
+        };
+
+        tmux_split_h: tmux_split_h {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp BACKSLASH>;
+            label = "TMUX_SPLIT_H";
+        };
+
+        tmux_split_v: tmux_split_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp LS(SQT)>;
+            label = "TMUX_SPLIT_V";
+        };
+
+        tmux_n_win: tmux_n_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp L>;
+            label = "TMUX_N_WIN";
+        };
+
+        tmux_p_w: tmux_p_w {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp R>;
+            label = "TMUX_P_W";
+        };
+
+        tmux_x_win: tmux_x_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp B>;
+            label = "TMUX_X_WIN";
+        };
     };
 
     combos {
@@ -79,7 +163,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp W           &kp E  &kp R        &kp T             &kp Y            &kp U        &kp I      &kp O                &kp P
-&lt 3 A      &kp S           &kp D  &kp F        &kp G             &kp H            &kp J        &kp K      &kp L                &kp SEMI
+&lt 3 A      &lt 6 S         &kp D  &kp F        &kp G             &kp H            &kp J        &kp K      &kp L                &kp SEMI
 &mt LCTRL Z  &mt LEFT_ALT X  &kp C  &kp V        &kp B             &kp N            &kp M        &kp COMMA  &mt LEFT_ALT PERIOD  &mt LCTRL SLASH
                                     &lt 1 SPACE  &kp LEFT_SHIFT    &lt 2 BACKSPACE  &lt 4 ENTER
             >;
@@ -127,6 +211,15 @@
 &none        &none  &none  &none       &bt BT_SEL 1    &bt BT_SEL 4  &none  &none   &none  &none
 &none        &none  &none  &none       &bt BT_SEL 2    &bt BT_SEL 5  &none  &none   &none  &none
                            &none       &none           &none         &none
+            >;
+        };
+
+        tmux {
+            bindings = <
+&tmux_cmd  &trans  &trans   &tmux_p_w      &trans         &trans  &trans         &tmux_new_win  &trans       &tmux_l
+&trans     &trans  &trans   &tmux_split_v  &trans         &trans  &tmux_h        &trans         &tmux_n_win  &tmux_s
+&trans     &trans  &tmux_j  &tmux_k        &tmux_x_win    &trans  &tmux_split_h  &trans         &trans       &trans
+                            &trans         &trans         &trans  &trans
             >;
         };
     };
