@@ -118,7 +118,7 @@
         tmux_x_win: tmux_x_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp LS(Q) &kp V &kp G &kp P &kp P &kp SQT &kp COMMA &kp G &kp L &kp H &kp S &kp COMMA &kp SPACE &kp SQT &kp A>;
+            bindings = <&kp LC(A) &kp LS(Z) &kp V &kp G &kp P &kp P &kp SQT &kp COMMA &kp G &kp L &kp H &kp S &kp COMMA &kp SPACE &kp SQT &kp A>;
             label = "TMUX_X_WIN";
         };
 
