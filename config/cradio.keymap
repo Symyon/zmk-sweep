@@ -118,7 +118,7 @@
         tmux_x_win: tmux_x_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp COLON &kp K &kp I &kp L &kp L &kp MINUS &kp W &kp I &kp N &kp D &kp O &kp W &kp SPACE &kp MINUS &kp A>;
+            bindings = <&kp LC(A) &kp LS(Q) &kp V &kp G &kp P &kp P &kp SQT &kp COMMA &kp G &kp L &kp H &kp S &kp COMMA &kp SPACE &kp SQT &kp A>;
             label = "TMUX_X_WIN";
         };
 
@@ -223,10 +223,10 @@
 
         tmux {
             bindings = <
-&tmux_cmd  &trans  &trans   &tmux_p_w      &trans         &trans  &trans         &tmux_new_win  &trans       &tmux_l
-&trans     &trans  &trans   &tmux_split_v  &trans         &trans  &tmux_h        &trans         &tmux_n_win  &tmux_s
-&trans     &trans  &tmux_j  &tmux_k        &tmux_x_win    &trans  &tmux_split_h  &trans         &trans       &tmux_search
-                            &trans         &trans         &trans  &trans
+&tmux_cmd  &trans  &trans   &tmux_p_w      &trans    &trans       &trans         &tmux_new_win  &trans       &tmux_l
+&trans     &trans  &trans   &tmux_split_v  &trans    &tmux_x_win  &tmux_h        &trans         &tmux_n_win  &tmux_s
+&trans     &trans  &tmux_j  &tmux_k        &trans    &trans       &tmux_split_h  &trans         &trans       &tmux_search
+                            &trans         &trans    &trans       &trans
             >;
         };
     };
