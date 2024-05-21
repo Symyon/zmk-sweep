@@ -24,9 +24,10 @@
 &mt {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
     tapping-term-ms = <175>;
     quick-tap-ms = <90>;
+    require-prior-idle-ms = <250>;
 };
 
 &sk { ignore-modifiers; };
