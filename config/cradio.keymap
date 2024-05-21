@@ -154,7 +154,7 @@
 
         Shift {
             bindings = <&mo 3>;
-            key-positions = <31 32>;
+            key-positions = <20 10>;
         };
     };
 
