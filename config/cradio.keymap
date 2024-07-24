@@ -21,7 +21,7 @@
 
 // -----------------
 
-_mt {
+&mt {
     ignore-modifiers;
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
