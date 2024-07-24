@@ -24,7 +24,7 @@
 &mt {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
     tapping-term-ms = <125>;
     quick-tap-ms = <90>;
     require-prior-idle-ms = <100>;
@@ -149,6 +149,9 @@
             bindings = <&kp DELETE>;
             key-positions = <32 33>;
         };
+    };
+
+    behaviors {
     };
 
     keymap {
