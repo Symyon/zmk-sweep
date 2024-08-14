@@ -130,7 +130,7 @@
         inspect_element: inspect_element {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp RCLK &kp Q>;
+            bindings = <&mkp RCLK &kp X>;
             label = "INSPECT_ELEMENT";
         };
     };
