@@ -155,7 +155,7 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <32 33>;
+            key-positions = <7 8>;
         };
 
         inspect_element {
