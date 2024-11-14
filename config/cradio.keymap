@@ -25,10 +25,12 @@
 &mt {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
-    flavor = "tap-preferred";
-    tapping-term-ms = <150>;
-    quick-tap-ms = <90>;
-    require-prior-idle-ms = <125>;
+    flavor = "balanced";
+    tapping-term-ms = <120>;
+    quick-tap-ms = <150>;  // Increased to make double-taps more reliable
+    require-prior-idle-ms = <100>;  // Slightly reduced to improve responsiveness
+    hold-trigger-key-positions = <0>;  // This makes hold trigger immediately when another key is pressed
+    hold-trigger-on-release;  // This can help with quick layer changes
 };
 
 / {
