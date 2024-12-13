@@ -165,14 +165,14 @@
             key-positions = <26 27>;
         };
 
-        Tab {
-            bindings = <&kp TAB>;
-            key-positions = <20 21>;
-        };
-
         Save {
             bindings = <&kp LC(O)>;
-            key-positions = <29 28>;
+            key-positions = <8 9>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
         };
     };
 
