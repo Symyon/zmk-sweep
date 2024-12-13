@@ -146,7 +146,7 @@
 
         combo_settings {
             timeout-ms = <300>;
-            key-positions = <1 2>;
+            key-positions = <31 30>;
             bindings = <&mo 4>;
         };
 
@@ -172,6 +172,11 @@
 
         Tab {
             bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        Terminal_V_Mode {
+            bindings = <&tmux_search>;
             key-positions = <0 1>;
         };
     };
