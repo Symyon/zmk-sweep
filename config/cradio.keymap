@@ -171,7 +171,7 @@
         };
 
         Save {
-            bindings = <&kp LC(S)>;
+            bindings = <&kp LC(O)>;
             key-positions = <29 28>;
         };
     };
