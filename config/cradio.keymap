@@ -166,7 +166,7 @@
         };
 
         Save {
-            bindings = <&kp LC(O)>;
+            bindings = <&kp LC(SEMICOLON)>;
             key-positions = <8 9>;
         };
 
