@@ -147,7 +147,7 @@
         combo_settings {
             timeout-ms = <300>;
             key-positions = <1 2>;
-            bindings = <&lt 4 TAB>;
+            bindings = <&mo 4>;
         };
 
         escape {
@@ -160,14 +160,19 @@
             key-positions = <7 8>;
         };
 
-        inspect_element {
-            bindings = <&inspect_element>;
-            key-positions = <0 10>;
-        };
-
         Ctrl-a {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <20 21>;
+        };
+
+        Save {
+            bindings = <&kp LC(S)>;
+            key-positions = <29 28>;
         };
     };
 
