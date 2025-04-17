@@ -20,6 +20,8 @@
 #define ACCENT 5
 #define SETTINGS 6
 
+// These doesn't seems to be right
+
 // -----------------
 
 &mt {
